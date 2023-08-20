@@ -17,6 +17,9 @@
     .row {
       display: flex;
     }
+    body{      
+      background-color: cornsilk;
+    }
   </style>
 </head>
 
@@ -29,7 +32,7 @@
         </canvas>
       </div> -->
 
-      <div class="col-md-6">
+      <div class="col-md-6" style="background-color: cadetblue;">
         <div id="clock" class="light">
           <div class="display">
             <div class="weekdays"></div>
@@ -43,7 +46,7 @@
           <a class="button">Switch Theme</a>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6" style="background-color: tan;">
 
         <div class="row-ex">
           <div class="col-ex">
